@@ -26,7 +26,8 @@ address {
 
 body {
   padding: 50px 0px 0px 0px;
-  z-index: 0; }
+  z-index: 0;
+  background-color: #D1C4E9; }
 
 .navbar-dark {
   background-color: #512DA8; }
@@ -52,3 +53,14 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-header {
+  background-color: #512DA8;
+  color: floralwhite; }
+  .modal-header .closelogin {
+    color: floralwhite; }
+  .modal-header .closetable {
+    color: floralwhite; }
+
+.modal-body {
+  background-color: #D1C4E9; }
